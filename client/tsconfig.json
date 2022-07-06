@@ -20,7 +20,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     // allianse
-    "baseUrl": "./app/",
+    "baseUrl": "./src",
     "paths": {
       "@/components/*": [
         "components/*"
