@@ -4,11 +4,12 @@ import './footerInput.sass'
 
 const FooterInput = () => {
   return (
-    <div>
-        <input className='FooterMessageInput'/>
-        {/* <PaperClipOutlined />
-        <SmileOutlined /> 
-        <SendOutlined />*/}
+    <div className='FooterMessageWrap'>
+        <SmileOutlined className='FooterMessageIcon'/> 
+        <input className='FooterMessageInput' placeholder='Сообщение'/>
+        <PaperClipOutlined className='FooterMessageIcon'/>
+        <SendOutlined className='FooterMessageIcon'/>
+       
     </div>
   )
 }
