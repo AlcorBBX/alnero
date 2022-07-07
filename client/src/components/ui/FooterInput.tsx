@@ -9,7 +9,6 @@ const FooterInput = () => {
         <input className='FooterMessageInput' placeholder='Сообщение'/>
         <PaperClipOutlined className='FooterMessageIcon'/>
         <SendOutlined className='FooterMessageIcon'/>
-       
     </div>
   )
 }
