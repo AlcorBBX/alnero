@@ -27,3 +27,5 @@ yarn-error.log*
 
 client/README.md
 
+client/yarn.lock
+
