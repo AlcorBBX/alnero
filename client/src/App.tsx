@@ -1,3 +1,4 @@
+import LoginPage from 'pages/LoginPage';
 import React from 'react';
 import './App.css'
 import LayoutMain from './components/layout/LayoutChat';
@@ -6,7 +7,8 @@ import LayoutMain from './components/layout/LayoutChat';
 function App() {
   return (
     <div className="App">
-      <LayoutMain/>
+      {/* <LayoutMain/> */}
+      <LoginPage/>
     </div>
   );
 }
