@@ -1,3 +1,4 @@
+import LoginPage from 'pages/LoginPage';
 import React from 'react';
 import './App.css'
 import AppRouter from './components/AppRouter';
