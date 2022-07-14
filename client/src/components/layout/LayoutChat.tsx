@@ -8,7 +8,7 @@ import FooterInput from '../ui/FooterInput'
 const { Header, Sider, Content, Footer } = Layout;
 
 
-const LayoutMain:FC = () => {
+const LayoutChat:FC = () => {
   return (
     <Layout>
       <Sider width={'365px'} style={{height: '100vh', backgroundColor: 'rgba(23, 22, 27, 1)'}}>
@@ -43,4 +43,4 @@ const LayoutMain:FC = () => {
   )
 }
 
-export default LayoutMain
+export default LayoutChat
